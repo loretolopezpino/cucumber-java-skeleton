@@ -39,5 +39,26 @@ public class StepDefinitions {
     public void la_respuesta_del_json_es(String response) {
         assertEquals(response, modulos);
     }
+    /*
+     * Scneario normal*/
 
+    @Given("El menu de ordenes de impresion es visible para un usuario con rol central de apuntes")
+    public void el_menu_de_ordenes_de_impresion_es_visible_para_un_usuario_con_rol_central_de_apuntes() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new io.cucumber.java.PendingException();
+        System.out.println("Menú órdenes de impresión visible para el usuario");
+    }
+    @When("El usuario ingresa a ordenes de impresion")
+    public void el_usuario_ingresa_a_ordenes_de_impresion() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new io.cucumber.java.PendingException();
+        System.out.println("El usuario ingresa a órdenes impresión");
+    }
+
+    @Then("Se muestra un filtro con el listado de categorías asignadas al usuario")
+    public void se_muestra_un_filtro_con_el_listado_de_categorías_asignadas_al_usuario() {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new io.cucumber.java.PendingException();
+        System.out.println("Se muestra filtro con el listado de categorías");
+    }
 }
