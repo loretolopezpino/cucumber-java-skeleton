@@ -6,7 +6,6 @@ import io.cucumber.java.en.When;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 class SeDictaHoy{
     static String seDictaHoy(String seccionId, String fecha){
         String response = "false";
@@ -55,8 +54,8 @@ public class StepDefinitions {
         System.out.println("El usuario ingresa a órdenes impresión");
     }
 
-    @Then("Se muestra un filtro con el listado de categorías asignadas al usuario")
-    public void se_muestra_un_filtro_con_el_listado_de_categorías_asignadas_al_usuario() {
+    @Then("Se muestra un filtro con el listado de categorias asignadas al usuario")
+    public void se_muestra_un_filtro_con_el_listado_de_categorias_asignadas_al_usuario() {
         // Write code here that turns the phrase above into concrete actions
         //throw new io.cucumber.java.PendingException();
         System.out.println("Se muestra filtro con el listado de categorías");
